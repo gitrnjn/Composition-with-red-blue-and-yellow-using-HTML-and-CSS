@@ -1,0 +1,40 @@
+.container {
+    display: grid;
+    height: 710px;
+    width: 730px;
+    background-color: black;
+    gap: 10px;
+    grid-template-columns: 200px 420px 90px;
+    grid-template-rows: 250px 250px 90px 90px;
+  }
+  .item {
+    background-color: #f0f1ec;
+  }
+  .white1 {
+    background-color: #f0f1ec;
+    border-bottom: 10px solid black;
+  }
+  .red {
+    background-color: #e72f24;
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  .white2 {
+    background-color: #f0f1ec;
+    border-top: 10px solid black;
+  }
+  .blue {
+    background-color: #004592;
+    grid-row: span 2;
+  }
+  .white3 {
+    background-color: #f0f1ec;
+    grid-row: span 2;
+  }
+  .white4 {
+    background-color: #f0f1ec;
+    border-bottom: 10px solid black;
+  }
+  .yellow {
+    background-color: #f9d01e;
+  }
